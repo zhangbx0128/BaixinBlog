@@ -13,7 +13,7 @@ import java.util.Date;
 @Slf4j
 @Data
 @Component
-@ConfigurationProperties(prefix = "smartpark.jwt")
+@ConfigurationProperties(prefix = "prayblog.jwt")
 public class JwtUtils {
 
     private String secret;

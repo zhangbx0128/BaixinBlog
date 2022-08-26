@@ -99,7 +99,7 @@ logging:
       smartpark: info
 
 
-smartpark:
+prayblog:
   jwt:
     # 部署上线务必修改此配置，以保证token的安全性
     secret: f4e2e52034348f86b67cde581c0f9eb5
@@ -115,16 +115,17 @@ shiro-redis:
 code:
   expiration: 300
   #邮箱验证码有效时间/秒
-#com:
-#  mxjk:
-#    snowflake:
-#      machine-id: 1
-#      data-center-id: 1
-#
-#accessFile:
-#  resourceHandler: /show/** #匹配需要拦截的URL
-#  location: /Users/zhangdada/Java/mxjk/sp-web/src/main/resources/static/  #本地文件夹
-#
-#files:
-#  upload:
-#    path: /Users/zhangdada/Java/mxjk/sp-web/src/main/resources/static/ #存放文件的自定义路径
+com:
+  baixin:
+    prayblog:
+      snowflake:
+        machine-id: 1
+        data-center-id: 1
+
+accessFile:
+  resourceHandler: /show/** #匹配需要拦截的URL
+  location: /Users/zhangdada/BaixinBlog/paryblog/src/main/resources/static/  #本地文件夹
+
+files:
+  upload:
+    path: /Users/zhangdada/BaixinBlog/paryblog/src/main/resources/static/ #存放文件的自定义路径

@@ -2,6 +2,7 @@ package com.baixin.prayblog.mapper;
 
 import com.baixin.prayblog.entity.TbUserAuth;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author baixin
  * @since 2022-08-25
  */
+
 public interface TbUserAuthMapper extends BaseMapper<TbUserAuth> {
 
 }

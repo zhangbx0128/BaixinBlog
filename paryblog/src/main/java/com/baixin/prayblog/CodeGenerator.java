@@ -100,7 +100,7 @@ public class CodeGenerator {
     strategy.setEntityLombokModel(true);
     strategy.setRestControllerStyle(true);
     strategy.setControllerMappingHyphenStyle(true); // 驼峰转
-    strategy.setInclude("tb_user_auth"); // 表名
+    strategy.setInclude("tb_role"); // 表名
     strategy.setControllerMappingHyphenStyle(true);
     mpg.setStrategy(strategy);
     mpg.setTemplateEngine(new FreemarkerTemplateEngine());
